@@ -1,0 +1,19 @@
+$simple_hash:#f00;
+$extended_hash: #ff0000;
+$extended_hash_black: #000000;
+$extended_hash_blue: #0000ff;
+$extended_hash_green: #008000;
+$hsl_green: hsl(120, 100%, 25%);
+
+:export {
+    simple-hash: $simple_hash;
+    extended-hash: $extended_hash;
+    extended_hash_black:$extended_hash_black;
+    extended_hash_blue:$extended_hash_blue;
+    extended_hash_green:$extended_hash_green;
+    hsl_green: $hsl_green;
+    hsl: hsl(0, 100%, 50%);
+    rgb: rgb(255, 0, 0);
+    rgba: rgba(255, 0, 0, 1);
+};
+
